@@ -1,0 +1,104 @@
+/*Reset me sirve para configurar estilos de forma global*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darksalmon;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: left;
+    font-size: 30px;
+    padding: 40px 20px;
+    border: 1px solid black;
+    margin: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+footer{
+    color: rgb(1, 1, 14);
+    background-color:brown;
+    size: 20px;
+    padding: 40px 20px;
+    border: 1px solid black;
+}
+header ul {
+    list-style-type: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    font-size: 1.5rem;
+}
+section article h6{
+    background-color: darkkhaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section article p{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo2{
+    background-color: darksalmon;
+}
+.imagenes{
+    background-color: beige;
+    /*alto height y ancho width*/
+    width: 300px;
+    border: 2px solid rgb(3, 54, 3);
+    margin: 2px;
+    /*flex-wrap: wrap;*/
+    
+}
+.imagenes img{
+    width: 100%;
+
+}
+.principal{
+    width: 100%;
+}
+.principal img{
+    width: 50%;
+}
+.clase2{
+    background-color: burlywood;
+    margin: 2px;
+    border: 1px solid black;
+   
+
+}
+.container-imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+
+}
+@media only screen and (min-width: 450px){
+    body {
+        background-color: beige;
+    }
+}
+@media only screen and (min-width: 451px) and (max-width: 950px){
+    body {
+        background-color:bisque;
+    }
+}
+@media only screen and (min-width: 951px){
+    body {
+        background-color:blanchedalmond;
+    }
+}
